@@ -1,0 +1,10 @@
+{
+  "parts": [
+    {
+      "name": "expiration",
+      "hooks": {
+        "expressCreateServer": "ep_expiration/expiration"
+      }
+    }
+  ]
+}
